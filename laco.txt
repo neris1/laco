@@ -1,0 +1,23 @@
+aqui temos o exemplo de um codigo "laço" sendo usando no console.(NET)
+
+Console.Write("Quantos números você quer inserir? "); 
+int quantidade = int.Parse(Console.ReadLine());
+ 
+int[] numeros = new int[quantidade];
+int parese, impares = 0;
+ 
+for (int i = 0; i < quantidade; i++)
+{
+ 
+Console.Write($"Digite o (i + 1}° número: "); numeros[1] = int.Parse(Console.ReadLine());
+ 
+if (numeros[i]%2==0)
+pares++;
+ 
+else 
+impares++;
+}
+Console.WriteLine($"Total de números pares: {pares]");
+Console.WriteLine($"Total de números impares: (impares)");
+
+Console.ReadKey();
